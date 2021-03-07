@@ -1,0 +1,39 @@
+{
+    "env": {
+      "myDefaultIncludePath": [
+        "${workspaceFolder}/**",
+        "/Library/Developer/CommandLineTools/usr/include/c++/v1",
+        "/usr/local/include",
+        "/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include",
+        "/Library/Developer/CommandLineTools/usr/include",
+        "/usr/include"
+    ],
+      "myCompilerPath": "/usr/bin/clang"
+    },
+    "configurations": [
+      {
+        "name": "Mac",
+        "intelliSenseMode": "clang-x64",
+        "includePath": [
+            "${workspaceFolder}/**",
+            "/Library/Developer/CommandLineTools/usr/include/c++/v1",
+            "/usr/local/include",
+            // "/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include",
+            "/Library/Developer/CommandLineTools/usr/include"
+            // "/usr/include"
+        ],
+        "macFrameworkPath": ["/System/Library/Frameworks"],
+        "defines": ["FOO", "BAR=100"],
+        "compilerPath": "/usr/bin/clang",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "browse": {
+          "path": ["${workspaceFolder}"],
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
+        }
+      }
+    ],
+    "version": 4
+  }
+  
